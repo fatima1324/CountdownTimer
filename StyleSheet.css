@@ -1,0 +1,48 @@
+﻿body {
+    background-color:#d4c8c8;
+    color:#777777;
+}
+.timer {
+   max-width:690px;
+   margin: 0 auto;
+   padding-top:40px;
+
+}
+#timer{
+    display:inline-block;
+}
+.intimer p {
+    font-size: 122px;
+    margin:0;
+}
+#Edit {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    display:inline-block;
+    margin:0 5px;
+}
+#startbtn {
+    border-radius: 50%;
+    border: 1px solid #777777;
+    width: 80px;
+    height: 80px;
+    font-weight: bold;
+    margin-top:60px;
+}
+#resetbtn {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #808080;
+    background-color: #1a73e0;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 60px;
+}
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}
+    /*.row{
+        margin:0 !important;
+    }*/
